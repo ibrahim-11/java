@@ -22,7 +22,7 @@ public class Main {
         System.out.println("P1("+p1.getX()+","+p1.getY()+")");
         System.out.println("P2("+p2.getX()+","+p2.getY()+")");
 
-        p2.distance(p1);
+        p1.distance(p2);
 
     }
 }
