@@ -24,4 +24,5 @@ public class Main {
         Complex my_somme = new Complex(nb1,nb1i,nb2,nb2i);
         my_somme.affichage();
     }
+
 }
