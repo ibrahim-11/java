@@ -1,0 +1,3 @@
+jdk 
+on prend le .exe 
+Apres on modifie les variable d'environnement dans le pc
