@@ -16,8 +16,8 @@ public class Main {
         System.out.println("Entrer l'oordonne P2: ");
         double y2 = scanner.nextDouble();
 
-        Points p1 = new Points(x1,y1);
-        Points p2 = new Points(x2,y2);
+        Point p1 = new Point(x1,y1);
+        Point p2 = new Point(x2,y2);
 
         System.out.println("P1("+p1.getX()+","+p1.getY()+")");
         System.out.println("P2("+p2.getX()+","+p2.getY()+")");

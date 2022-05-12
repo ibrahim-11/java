@@ -1,8 +1,8 @@
 package ib.exo5;
 
-public class Points {
+public class Point{
     private double x,y;
-    public Points(double x,double y){
+    public Point(double x,double y){
         this.x = x;
         this.y = y;
     }
@@ -23,9 +23,9 @@ public class Points {
         this.y = y;
     }
 
-    public void distance(Points coordonne){
+    public void distance(Point coordonne){
         double dist= Math.sqrt(Math.pow((coordonne.x-this.x), 2)+Math.pow((coordonne.y-this.y), 2));
 
-        System.out.println("La distance entre P1 et P2 set:"+dist);
+        System.out.printf("La distance entre P1 et P2 set: %.5f",dist);
     }
 }
