@@ -1,0 +1,4 @@
+jdk 
+on prend le .exe 
+Apres on modifie les variable d'environnement dans le pc
+https://devstory.net/10377/installer-java-sur-windows
